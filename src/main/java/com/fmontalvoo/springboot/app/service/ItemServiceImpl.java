@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 import com.fmontalvoo.springboot.app.models.Item;
 import com.fmontalvoo.springboot.app.models.Producto;
 
-@Service
+@Service("itemService")
 public class ItemServiceImpl implements ItemService {
 
 	private static final String URL_PRODUCTOS = "http://localhost:8001/api/v1/productos";
