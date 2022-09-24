@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.fmontalvoo.springboot.app.models.Producto;
 
-@FeignClient(name = "ms-productos", url = "localhost:8001/api/v1/productos")
+@FeignClient(name = "ms-productos/api/v1/productos")
 public interface ProductoRestClient {
 
 	@GetMapping
