@@ -9,6 +9,9 @@ public class Producto {
 	private Double precio;
 	private Date createdAt;
 
+	public Producto() {
+	}
+
 	public Long getId() {
 		return id;
 	}
