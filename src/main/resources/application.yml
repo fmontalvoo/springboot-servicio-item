@@ -2,7 +2,7 @@ resilience4j:
   circuitbreaker:
     configs:
       configuracion-por-defecto:
-        sliding-window-size: 8
+        sliding-window-size: 20
         failure-rate-threshold: 50
         wait-duration-in-open-state: 15s
         permitted-number-of-calls-in-half-open-state: 10
