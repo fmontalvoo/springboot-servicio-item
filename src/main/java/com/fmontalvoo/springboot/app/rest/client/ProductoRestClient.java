@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.fmontalvoo.springboot.app.models.Producto;
+import com.fmontalvoo.springboot.commons.models.Producto;
 
 @FeignClient(name = "ms-productos/api/v1/productos")
 public interface ProductoRestClient {

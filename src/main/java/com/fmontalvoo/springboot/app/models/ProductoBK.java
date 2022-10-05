@@ -2,14 +2,14 @@ package com.fmontalvoo.springboot.app.models;
 
 import java.util.Date;
 
-public class Producto {
+public class ProductoBK {
 
 	private Long id;
 	private String nombre;
 	private Double precio;
 	private Date createdAt;
 
-	public Producto() {
+	public ProductoBK() {
 	}
 
 	public Long getId() {

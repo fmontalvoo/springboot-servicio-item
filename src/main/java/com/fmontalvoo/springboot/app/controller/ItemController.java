@@ -21,8 +21,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fmontalvoo.springboot.app.models.Item;
-import com.fmontalvoo.springboot.app.models.Producto;
 import com.fmontalvoo.springboot.app.service.ItemService;
+import com.fmontalvoo.springboot.commons.models.Producto;
 
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.timelimiter.annotation.TimeLimiter;

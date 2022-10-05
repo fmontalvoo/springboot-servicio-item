@@ -3,7 +3,7 @@ package com.fmontalvoo.springboot.app.service;
 import java.util.List;
 
 import com.fmontalvoo.springboot.app.models.Item;
-import com.fmontalvoo.springboot.app.models.Producto;
+import com.fmontalvoo.springboot.commons.models.Producto;
 
 public interface ItemService {
 

@@ -1,5 +1,7 @@
 package com.fmontalvoo.springboot.app.models;
 
+import com.fmontalvoo.springboot.commons.models.Producto;
+
 public class Item {
 
 	private Producto producto;
