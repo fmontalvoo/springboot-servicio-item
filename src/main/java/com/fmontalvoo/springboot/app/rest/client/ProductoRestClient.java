@@ -19,13 +19,13 @@ public interface ProductoRestClient {
 	public Producto save(@RequestBody Producto producto);
 
 	@GetMapping("/{id}")
-	public Producto findById(@PathVariable Long id);
+	public Producto findById(@PathVariable("id") Long id);
 
 	@PutMapping("/{id}")
-	public Producto update(@PathVariable Long id, @RequestBody Producto producto);
+	public Producto update(@PathVariable("id") Long id, @RequestBody Producto producto);
 
 	@DeleteMapping("/{id}")
-	public void delete(@PathVariable Long id);
+	public void delete(@PathVariable("id") Long id);
 
 	@GetMapping
 	public List<Producto> findAll();
